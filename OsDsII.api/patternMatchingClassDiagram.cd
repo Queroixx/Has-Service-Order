@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OsDsII.api.Controllers.CommentController" Collapsed="true">
+    <Position X="5.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAIAAAABAAAAAAAAAAAAAAAAQAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\CommentController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OsDsII.api.Controllers.CustomersController" Collapsed="true">
+    <Position X="4" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgEAAAAAAAAAAAACAAAAoAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Controllers\CustomerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OsDsII.api.Controllers.ServiceOrdersController" Collapsed="true">
+    <Position X="4" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAQAAAAEAAgQAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Controllers\ServiceOrderController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OsDsII.api.DAL.Repositories.Customers.CustomersRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAABAAAIAAAAAAAQAAAAAQAAAAAIAA=</HashCode>
+      <FileName>DAL\Repositories\Customers\CustomersRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="OsDsII.api.DAL.Repositories.ServiceOrders.ServiceOrdersRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAIAAAAAAAAAAAAAAAgAAAQAAACAAAAAABAAA=</HashCode>
+      <FileName>DAL\Repositories\ServiceOrders\ServiceOrdersRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="OsDsII.DAL.UnitOfWork.UnitOfWork" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAL\Unit of Work\UnitOfWork.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="OsDsII.api.Data.DataContext" Collapsed="true">
+    <Position X="9.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAIIA=</HashCode>
+      <FileName>Data\DataContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OsDsII.api.DTO.Builder.CustomerDtoBuilder" Collapsed="true">
+    <Position X="11" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAIAAAAAAAAAAoAAAIAACAAAAAAA=</HashCode>
+      <FileName>DTO\Builder\CustomerDTOBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OsDsII.api.DTO.Builder.ServiceOrderDTOBuilder" Collapsed="true">
+    <Position X="11" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAEAABAAAQAoAAACCAAAAAAAIA=</HashCode>
+      <FileName>DTO\Builder\ServiceOrderDTOBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OsDsII.api.DTO.CommentDetailDTO" Collapsed="true">
+    <Position X="7.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DTO\CommentDetailDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OsDsII.api.http.HttpErrorResponse" Collapsed="true">
+    <Position X="11" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAACAAAAAAgAAAAAIAAAIAAAAAA=</HashCode>
+      <FileName>Http\HttpErrorResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OsDsII.api.http.HttpResponseApi&lt;T&gt;" Collapsed="true">
+    <Position X="4" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAABQAICABIAAAAAA=</HashCode>
+      <FileName>Http\HttpResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OsDsII.api.DTO.CustomerDetailDTO" Collapsed="true">
+    <Position X="7.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DTO\CustomerDetailDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OsDsII.api.DTO.CustomerDTO" Collapsed="true">
+    <Position X="9.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAAAAAAAAAAAQAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>DTO\CustomerDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OsDsII.api.DTO.ServiceOrderDetailDTO" Collapsed="true">
+    <Position X="7.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECAAAEAQAiAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>DTO\ServiceOrderDetailDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OsDsII.api.DTO.ServiceOrderDTO" Collapsed="true">
+    <Position X="9.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECAAAEAQAiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DTO\ServiceOrderDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OsDsII.api.Models.BaseEntity" Collapsed="true">
+    <Position X="1.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\BaseEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OsDsII.api.Models.Comment" Collapsed="true">
+    <Position X="4" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAIAAAgACAAgAAAAAAAAAAAAIAAAAAAAAAAAQA=</HashCode>
+      <FileName>Models\Comment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OsDsII.api.Models.CommentInput" Collapsed="true">
+    <Position X="11" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\CommentInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OsDsII.api.Models.Customer" Collapsed="true">
+    <Position X="5.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAgAACAAAAAAgAAAAAQAAAAAAIAAAAAAIAAAAIA=</HashCode>
+      <FileName>Models\Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OsDsII.api.Models.ServiceOrder" Collapsed="true">
+    <Position X="5.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAECAAAEQQAiAAAAAAAAAAIAAAAAAABAAAAAgAAAIAA=</HashCode>
+      <FileName>Models\ServiceOrder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OsDsII.api.Models.ServiceOrderInput">
+    <Position X="1.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ServiceOrderInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OsDsII.api.Services.Comments.CommentsService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAgAgBAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Comments\CommentsService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="OsDsII.api.Services.Customers.CustomersService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgEAAAAAAAAAAAAAAgAAoAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Services\Customers\CustomersService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="OsDsII.api.Services.ServiceOrders.ServiceOrdersService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAQAAAAAAAAAAAgAAAAAAAgAAIgAAAAAAEgAAAAAA=</HashCode>
+      <FileName>Services\ServiceOrders\ServiceOrdersService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="OsDsII.api.DAL.Repositories.Customers.ICustomersRepository" Collapsed="true">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAABAAAIAAAAAAAAAAAAAQAAAAAIAA=</HashCode>
+      <FileName>DAL\Repositories\Customers\ICustomersRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="OsDsII.api.DAL.Repositories.ServiceOrders.IServiceOrdersRepository" Collapsed="true">
+    <Position X="9.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAIAAAAAAAAAAAAAAAgAAAAAAACAAAAAABAAA=</HashCode>
+      <FileName>DAL\Repositories\ServiceOrders\IServiceOrdersRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="OsDsII.DAL.UnitOfWork.IUnitOfWork" Collapsed="true">
+    <Position X="14.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAL\Unit of Work\IUnitOfWork.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="OsDsII.api.Services.Comments.ICommentsService" Collapsed="true">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAABAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Comments\ICommentsService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="OsDsII.api.Services.Customers.ICustomersService" Collapsed="true">
+    <Position X="7.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgEAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Services\Customers\ICustomersService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="OsDsII.api.Services.ServiceOrders.IServiceOrdersService" Collapsed="true">
+    <Position X="11" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAgAAAAAAAgAAAAAAAAAAEgAAAAAA=</HashCode>
+      <FileName>Services\ServiceOrders\IServiceOrdersService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="OsDsII.api.Models.StatusServiceOrder" Collapsed="true">
+    <Position X="4" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\StatusServiceOrder.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
